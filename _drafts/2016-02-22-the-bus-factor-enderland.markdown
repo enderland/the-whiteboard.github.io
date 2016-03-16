@@ -5,7 +5,7 @@ categories: company
 author: enderland
 ---
 
-Several years ago, I asked what seemed to be an innocuous question on a related site - [How to prepare for getting hit by a bus?](http://workplace.stackexchange.com/q/9128/2322). At the time, I was the _only_ developer on a project. And not super happy. I knew I left, the project was going to die. 
+Several years ago, I asked what seemed to be an innocuous question on a related site - [How to prepare for getting hit by a bus?](http://workplace.stackexchange.com/q/9128/2322). At the time, I was the _only_ developer on a project. And not super happy. I knew if I left, the project was going to die. 
 
 People leave companies and teams for all sorts of reasons. Maybe taking a different job, win the lottery, or more morbidly getting hit by a bus.
 
@@ -17,7 +17,7 @@ But what if your company is small? If you have a small team with only a few deve
 
 The phrase "bus factor" is often used in considerations like this. It basically refers to the number of people who are in positions in a company, project, or team that are critical for the project success. For example, a team of two people both working on a small project with roughly equal contributions could result in that project having a bus factor of 2. Both those people would have to quit before the project would be critically doomed to failure.
 
-Practically speaking it is often difficult to identify a bus number. If your company has 10 people, with 3 people doing all the development you may have a bus number of 3. But if two of them are junior and the third is the heavy lifter, you still might have a bus number of 1. 
+Practically speaking it is often difficult to identify a bus number. If your company has 10 people, with 3 people doing all the development you may have a bus number of 3. But if two of them are junior and the third is the sole heavy lifter, you still might have a bus number of 1. 
 
 This is really, really important to understand. **Having a team doesn't automatically increase your bus number.** The “bus number” is entirely dependent on how few people would have to leave before a project fails. It might be all of the team or only a few key individuals.
 
@@ -38,3 +38,12 @@ There is really no way around it. Anything like this happening, even if it’s a
 Larger companies can just accept a huge financial hit and move forward. Smaller companies cannot. 
 
 # __Risk mitigation: how to prevent this from destroying you__
+
+First, hire good people. An organization full of smart people is an insurance against a bus factor. Smart people can quickly adapt and learn new things. Your bus factor might be 1 but at least if that person wins the lottery, you have people who can eventually fill in their responsibilities. Naturally you need to try to keep people, a subject which could be an entire blog post of its own, but do not make work environments horrible.
+
+Second, documentation. Keep some sort of record for major decisions. If you are not using a version control system get one yesterday. Try to avoid making large scale planning decisions without capturing them. This might be as simple as emailed meeting notes. It might be as complex as long specifications documents. Having _something_ to look at though in the event that happens is important.
+
+Code reviews are also helpful, even if cursory. It provides a smoke check - if during a review you have no clue what large portions of a codebase is doing, odds are your bus factor is lower than if you understand it (hey at least if someone else can grok it, it sort of makes sense). It gives opportunities to do knowledge share.
+
+
+
